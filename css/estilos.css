@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.azul-secundario-fondo{
+    background-color: rgb(27, 90, 173);
+}
+
+.azul-secundario-texto{
+    color: rgb(27, 90, 173);
+}
+
+.logo {
+    background-image: url(../logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: 100px;
+    overflow: hidden;
+    width: 100px;
+}
+
+.descripcion::before {
+    content: "";
+    width: 100%;
+    margin: 0 auto;
+    height: 5px solid rgb(31, 101, 194);
+    display: inline-block;
+}
+
+.navbar {
+    background-color: rgb(31, 101, 194);
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(226, 225, 225);
+}
+
+.navbar button[type="submit"] {
+    border: 2px solid white;
+    color: white;
+}
+
+.titulo::after {
+    content: "";
+    width: 60%;
+    height: 4px;
+    background-color: rgb(31, 101, 194);
+    display: block;
+    margin: 15px auto 0 auto;
+}
+
+.logo-footer {
+    display: block;
+    text-transform: uppercase;
+    background-image: url(../logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: 160px;
+    overflow: hidden;
+    width: 160px;
+}
+
+footer {
+    background-color: rgb(31, 101, 194);
+    color: white;
+}
+
+footer ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s all;
+}
+
+footer a:hover {
+    color: rgb(202, 200, 200);
+    
+}
+
+.titulos-footer::after {
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 50%;
+    display: flex;
+    margin: 7px 0 20px 0;
+}
+
+footer input[type="email"] {
+    border: 0;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+footer input[type="submit"] {
+    border: 0;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+footer input[type="submit"]:hover {
+    background-color: rgb(194, 194, 194);
+    transition: 0.3s all;
+    color: white;
+}
+
+.copy {
+    background-color: rgb(27, 90, 173);
+    color: white;
+}
+
+.error-form {
+    font-size: 14px;
+    color: red;
+    background-color: black;
+    padding: 5px 0;
+}
+
+.mensaje-exito {
+    background-color: green;
+    color: white;
+}
+
+.mensaje-error {
+    background-color: red;
+    color: white;
+}
